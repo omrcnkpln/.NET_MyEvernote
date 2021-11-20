@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,7 +23,8 @@ namespace MyEvernote.Entities
         public string Password { get; set; }
         public bool IsActive { get; set; }
         public bool IsAdmin { get; set; }
-        [Required]
+
+        //[Required]
         public Guid ActivateGuid { get; set; }
         //başka klas ile ilişkili olduğu için virtul tanımladık
         //foreign key 1+ note ile
