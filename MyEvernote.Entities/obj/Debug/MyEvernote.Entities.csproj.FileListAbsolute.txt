@@ -1,0 +1,13 @@
+C:\Users\kapla\source\repos\MyEvernote.Solution\MyEvernote.Entities\bin\Debug\MyEvernote.Entities.dll.config
+C:\Users\kapla\source\repos\MyEvernote.Solution\MyEvernote.Entities\bin\Debug\MyEvernote.Entities.dll
+C:\Users\kapla\source\repos\MyEvernote.Solution\MyEvernote.Entities\bin\Debug\MyEvernote.Entities.pdb
+C:\Users\kapla\source\repos\MyEvernote.Solution\MyEvernote.Entities\bin\Debug\EntityFramework.dll
+C:\Users\kapla\source\repos\MyEvernote.Solution\MyEvernote.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kapla\source\repos\MyEvernote.Solution\MyEvernote.Entities\bin\Debug\FakeData.dll
+C:\Users\kapla\source\repos\MyEvernote.Solution\MyEvernote.Entities\bin\Debug\EntityFramework.xml
+C:\Users\kapla\source\repos\MyEvernote.Solution\MyEvernote.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kapla\source\repos\MyEvernote.Solution\MyEvernote.Entities\bin\Debug\FakeData.pdb
+C:\Users\kapla\source\repos\MyEvernote.Solution\MyEvernote.Entities\obj\Debug\MyEvernote.Entities.csproj.AssemblyReference.cache
+C:\Users\kapla\source\repos\MyEvernote.Solution\MyEvernote.Entities\obj\Debug\MyEvernote.Entities.csproj.CoreCompileInputs.cache
+C:\Users\kapla\source\repos\MyEvernote.Solution\MyEvernote.Entities\obj\Debug\MyEvernote.Entities.dll
+C:\Users\kapla\source\repos\MyEvernote.Solution\MyEvernote.Entities\obj\Debug\MyEvernote.Entities.pdb

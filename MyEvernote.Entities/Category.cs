@@ -20,5 +20,11 @@ namespace MyEvernote.Entities
         //başka klas ile ilişkili olduğu için virtul tanımladık
         //foreign key 1+ note ile
         public virtual List<Note> Notes { get; set; }
+
+        //note oluştururken null hatası almamak için contr. da bu işlemi yaptık
+        public Category()
+        {
+            Notes = new List<Note>();
+        }
     }
 }
