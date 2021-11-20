@@ -1,9 +1,51 @@
-﻿@{
-    ViewBag.Title = "Index";
+﻿@using MyEvernote.Entities
+@model List<Note>
+
+@{
+    ViewBag.Title = "Anasayfa";
 }
 
+@Html.Partial("_PartialCategories")
 
-<h2>Burası anasayfa gövde</h2>
+<div class="notlar">
+    <div class="container">
+        <div class="row">
+            @foreach (Note note in Model)
+            {
+            <div class="col-3 mb-3">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h1>
+                            @note.Title
+                        </h1>
+                    </div>
+                   
+                    <div class="card-body">
+                        <p>
+                            @if (string.IsNullOrEmpty(note.Text) == false && note.Text.Length > 40)
+                            {
+                                @(note.Text.Substring(0, 40) + "...");
+                            }
+                            else
+                            {
+                                @note.Text
+                            }
+                        </p>
+                    </div>
 
-<em class="fa fa-shopping-bag"></em>
+                    <div class="card-footer">
+                        <h6>
+                            <em class="fa fa-shopping-bag"></em>
+                            @note.Owner.Username
+                        </h6>
 
+                        <h6>
+                            @note.ModifiedOn.ToString("dd.MM.YY HH:mm")
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</div>
